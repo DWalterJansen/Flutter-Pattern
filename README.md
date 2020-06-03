@@ -57,7 +57,7 @@ Para garantir a atualização da versão do Flutter SDK (no momento 1.17), recom
 
 1. Acesse **File -> Preferences -> Settings**.
 
-![Path Settings](app_template/images/settings_path.png)
+![Path Settings](app_template/images/settings_path.PNG)
 
 2. Procure a opção "Dart: Flutter Android X" e marque. Isso faz com que o próximo projeto iniciado suporte compatibilidade com a versão X.
 
@@ -66,7 +66,7 @@ Para garantir a atualização da versão do Flutter SDK (no momento 1.17), recom
 
 3. Procure agora pela opção "Dart: Flutter Create". Ira aparecer tanto para Android Language quanto IOS Language. Escolha respectivamente Kotlin e Swift. O motivo é que o Android Studio escolhe essas linguagens para configurar o projeto.
 
-![Path Settings"](app_template/images/settings_languages.png)
+![Language Settings](app_template/images/settings_languages.PNG)
 
 4. Procure também por "Dart: Flutter Create Organization". Você verá a opção de editar .json. Adicione nesse arquivo o nome da organização que é usada para gerar os pacotes em android e ios. Adicionei por exemplo "br.hhelp"
 
