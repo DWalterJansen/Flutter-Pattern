@@ -1,7 +1,7 @@
 ---
 title: Flutter Hhelp Pattern
 version: 1.0.0
-update: 02 Jun 2020
+update: 03 Jun 2020
 language: pt-BR
 autor: David Jansen - davidwalterjansen@gmail.com
 ---
@@ -57,19 +57,21 @@ Para garantir a atualização da versão do Flutter SDK (no momento 1.17), recom
 
 1. Acesse **File -> Preferences -> Settings**.
 
-:::image type="content" source="app_template/images/settings_path.png" alt-text="Path Settings" loc-scope="ai-builder":::
+![Path Settings](app_template/images/settings_path.png)
 
 2. Procure a opção "Dart: Flutter Android X" e marque. Isso faz com que o próximo projeto iniciado suporte compatibilidade com a versão X.
 
-:::image type="content" source="app_template/images/settings_androidx.PNG" alt-text="AndroidX" loc-scope="ai-builder":::
+
+![AndroidX](app_template/images/settings_androidx.PNG)
 
 3. Procure agora pela opção "Dart: Flutter Create". Ira aparecer tanto para Android Language quanto IOS Language. Escolha respectivamente Kotlin e Swift. O motivo é que o Android Studio escolhe essas linguagens para configurar o projeto.
 
-:::image type="content" source="app_template/images/settings_languages.png" alt-text="Path Settings" loc-scope="ai-builder":::
+![Path Settings"](app_template/images/settings_languages.png)
 
 4. Procure também por "Dart: Flutter Create Organization". Você verá a opção de editar .json. Adicione nesse arquivo o nome da organização que é usada para gerar os pacotes em android e ios. Adicionei por exemplo "br.hhelp"
 
-:::image type="content" source="app_template/images/create_organization.PNG" alt-text="Create Organization" loc-scope="ai-builder":::
+
+![Create Organization](app_template/images/create_organization.PNG)
 
 ```json
 ...
@@ -79,7 +81,7 @@ Para garantir a atualização da versão do Flutter SDK (no momento 1.17), recom
 
 5. Por fim, procure por "File Exclude" e adicione o padrão \*\*/\*\*.g.dart. Os arquivos .g.dart são gerados pelo [Mobx](https://pub.dev/packages/mobx) e não devem ser alterados pelo usuário. O File exclude apenas oculta esse formato da lista de arquivos no seu workspace.
 
-:::image type="content" source="app_template/images/files_exclude.PNG" alt-text="File Exclude" loc-scope="ai-builder":::
+![File Exclude](app_template/images/files_exclude.PNG)
 
 ### Instalar Slidy
 
@@ -93,7 +95,7 @@ O [Slidy](https://pub.dev/packages/slidy) funciona como um gerenciador de pacote
 
 3. Escolha o nome e local do seu projeto. Como exemplo criei um **app_template**. Com execessão da pasta "images", você terá essa estrutura:
 
-:::image type="content" source="app_template/images/app_template_init.PNG" alt-text="Estrutura Inicial" loc-scope="ai-builder":::
+![Estrutura Inicial](app_template/images/app_template_init.PNG)
 
 4. Vamos modificar agora essa estrutura para trabalharmos com Modules. Abra o terminal interno do VSCODE já na raiz do projeto e execute:
 
@@ -120,7 +122,8 @@ flutter pub get & flutter pub run build_runner build --delete-conflicting-output
 
 7. Se tudo ocorreu sem erros, você terá a estrutura criada em Modular. Para mantê-la, é importante criar novos modulos usando o slidy. A estrutura atual do projeto deve se parecer com:
 
-:::image type="content" source="app_template/images/app_template_slidy.PNG" alt-text="Estrutura Modular" loc-scope="ai-builder":::
+
+![Estrutura Modular](app_template/images/app_template_slidy.PNG)
 
 ## Adicionando Novos Componentes ao Projeto
 
