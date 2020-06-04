@@ -12,7 +12,7 @@ autor: David Jansen - davidwalterjansen@gmail.com
 
 ## Sobre "Padrão de Projeto"
 
-Esse projeto reune guisas e documentações para padronizar os **Aplicativos** feitos em Flutter da Hhelp. O padrão deverá estar de acordo para todos os desenvolvedores
+Esse projeto reúne guias e documentações para padronizar os **Aplicativos** feitos em Flutter da Hhelp. O padrão deverá estar de acordo para todos os desenvolvedores.
 
 ## Documentação oficial
 
@@ -23,11 +23,11 @@ Esse projeto reune guisas e documentações para padronizar os **Aplicativos** f
 
 ## Pré-requisitos: Software e Hardware
 
-- Ambiente com Windows10/Linux ou Mac OS Catalina. Sendo que o primeiro grupo permite a construção de apps somente em Android e o último permite apps em Android e IOS.
+- Ambiente com Windows10/Linux ou Mac OS Catalina. Sendo que os primeiros  permitem a construção de apps somente em Android, e o último permite apps em Android e IOS.
 
 - Caso seu sistema possua menos de 8GB de RAM, poderá ser necessário que disponha de um smartphone onde será instalado o app para teste. Isso ocorre devido ao consumo dos emuladores.
 
-- Requisitos adicionais aparecem no guia de Instalação. Ex.: Android Studio, Xcode para Mac OS, Visual Studio Code.
+- Requisitos adicionais aparecem no guia de [Instalação Flutter](https://flutter.dev/docs/). Ex.: Android Studio, Xcode para Mac OS, Visual Studio Code.
 
 ## Instalação
 
