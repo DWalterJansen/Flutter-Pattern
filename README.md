@@ -93,7 +93,7 @@ O [Slidy](https://pub.dev/packages/slidy) funciona como um gerenciador de pacote
 
 2. Entre com "Flutter New Project".
 
-3. Escolha o nome e local do seu projeto. Como exemplo criei um **app_template**. Com execessão da pasta "images", você terá essa estrutura:
+3. Escolha o nome e local do seu projeto. Como exemplo criei um **app_template**. Você terá essa estrutura:
 
 ![Estrutura Inicial](app_template/images/app_template_init.PNG)
 
@@ -127,7 +127,7 @@ flutter pub get & flutter pub run build_runner build --delete-conflicting-output
 
 ## Adicionando Novos Componentes ao Projeto
 
-Se você executou os passos corretamente até aqui, já tem uma estrutura para desenvolvimento do app. Vamos agora aumentar a organizando deixando a estrutura mais robusta. Abaixo serão listadas as pastas criadas. Note a identação como forma de indicar sub diretórios.
+Se você executou os passos corretamente até aqui, já tem uma estrutura para desenvolvimento do app. Vamos agora aumentar a organização deixando a estrutura mais robusta. Abaixo serão listadas as pastas criadas. Note a identação como forma de indicar sub diretórios.
 
 - assets : Arquivos de imagem e fontes
 - lib/shared : Arquivos que podem ser compartilhados entre todos os modules. 
